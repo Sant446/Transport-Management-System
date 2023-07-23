@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <link rel='stylesheet' href='./styles/tranport_style.css'>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="header-text">Track Consignment </h1>
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label>Consignment Number</label>
+                </div>
+                <div class="col-25">
+                    <input type="text" id="consignment-number" placeholder="Consignment Number">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-22">
+        <button type="button" id="track" class="track" onclick=displayValues()>Track</button>
+    </div>
+
+    <div id="source-div">
+        <label>Source:</label>
+        <span id="source"></span>
+    </div>
+
+    <div id="dest-div">
+        <label>Destination:</label>
+        <span id="dest"></span>
+    </div>
+
+    <div id="receiver-div">
+        <label>Receiver:</label>
+        <span id="receiver"></span>
+    </div>
+
+    <div id="sender-div">
+        <label>Sender:</label>
+        <span id="sender"></span>
+    </div>
+
+    <div id="quantity-div">
+        <label>Quanity:</label>
+        <span id="quantity"></span>
+
+    </div>
+    <div id="weight-div">
+        <label>Weight:</label>
+        <span id="weight"></span>
+    </div>
+    <script src='./scripts/display.js'></script>
+
+</body>
+
+</html>

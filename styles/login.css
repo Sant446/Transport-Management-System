@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    padding: 0;
+    background: linear-gradient(120deg, #c5d4dd, #d8a4ee);
+    height: 100vh;
+    overflow: hidden;
+}
+
+    .center {
+        border-radius: 5px;
+        padding: 20px;
+        background-color: aqua;
+        margin-left: 450px;
+        margin-right: 450px;
+    }

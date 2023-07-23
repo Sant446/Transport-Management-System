@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <link rel='stylesheet' href='./styles/tranport_style.css'>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="header-text">Transportation Management System </h1>
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label>Source Location</label>
+                </div>
+                <div class="col-25">
+                    <select id="source-location"></select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label>Name</label>
+                </div>
+                <div class="col-25">
+                    <select id="sender-name"></select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label>Destination Location</label>
+                </div>
+                <div class="col-25">
+                    <select id="destination-location"></select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label>Receiver Name</label>
+                </div>
+                <div class="col-25">
+                    <select id="receiver-name"></select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label>Quantity</label>
+                </div>
+                <div class="col-25">
+                    <input type="number" id="quantity" placeholder="Quantity..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label>Weight</label>
+                </div>
+                <div class="col-25">
+                    <input type="number" id="weight" placeholder="Weight..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label>Amount</label>
+                </div>
+                <div class="col-25">
+                    <input type="text" id="amount" placeholder="Amount..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label>Partner</label>
+                </div>
+                <div class="col-25">
+                    <select id="partner-name"></select>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src='./scripts/readValues.js'></script>
+
+</body>
+
+<div class="myDiv">
+    <div>
+        <button type="submit" class="btn" onclick=saveDetails()>Submit</button>
+    
+        <button type="Next" class="btn" value="Next" onclick="Next()">Next</button>
+    </div>
+</div>
+
+</html>
